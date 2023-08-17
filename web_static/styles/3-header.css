@@ -2,16 +2,18 @@ header {
     background-color : white;
     height : 70px;
     width : 100%;
-    border-bottom : 1px #CCCCCC;
+    border-bottom : 1px solid #CCCCCC;
+
+    display: flex;
+    align-items: center;
 }
 
 header .logo {
-    margin-right: 20px;
-    height : 70px;
+    margin-left: 20px;
 
-    display : flex;
-    align-items: center;
+    width: 142px;
+    height : 60px;
 
-    background-image : url("./images/logo.png");
+    background-image : url("../images/logo.png");
     background-repeat: no-repeat;
 }
